@@ -1,13 +1,10 @@
-* {
-  box-sizing: border-box;
+body {
+  background-color: #111;
+  color: var(--primary-color);
+  font-family: sans-serif;
 }
-a {
-  color: inherit;
+
+:root {
+  --primary-color: red;
 }
-img {
-  max-width: 100%;
-  display: block;
-}
-html {
-  scroll-behavior: smooth;
-}
+/* PARA QUE SIRVE LAS VARIABLES EN CSS: colores, fuentes, gap, border-radius, font-size
